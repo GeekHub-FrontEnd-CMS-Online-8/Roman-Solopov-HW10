@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import "_header.scss";
+@import "_services.scss";
+@import "_about.scss";
+@import "_works.scss";
+@import "_contacts.scss";
+
+div, h1, h2, h3, h4, h5, h6, p, img, ul, li, span {
+	margin: 0;
+	padding: 0;
+}
+
+a {text-decoration: none;}
+
+body {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.main-container {
+  max-width: 1900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrapper {
+	min-width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+@media screen and (min-width: 924px) {
+  .site-navigation .main-menu {
+    display: block; }
+  .site-navigation > label {
+    display: none; }
+  .site-navigation ul li {
+    display: inline-block; }}
+
+@media screen and (max-width: 925px) {
+	.site-navigation a {
+	border-radius: 0px;
+	&:hover {color: #753B35;
+		background-color: inherit;}}
+	.site-navigation ul li {margin-top: -50px;}
+	.text {margin-top: 30px;
+		& h1 {font-size: 40px;}
+		& h2 {margin-top: 5px;}}
+	#site-nav2 a:hover {background-color: inherit;}	
+	#site-nav3 a:hover {background-color: inherit;}
+	#site-nav4 a:hover {background-color: inherit;}
+	#site-nav5 a:hover {background-color: inherit;}
+}    
+
+@media screen and (max-width: 1300px) {
+	.services-flex {flex-direction: column;
+		align-items: center;
+		margin-top: 10px;}
+	.services {margin-top: 20px;}	
+	#services {height: auto;}
+	.topbg2 {height: auto;}
+	.about-flex {flex-direction: column;
+	align-items: center;}
+	.about {margin-top: 20px;}
+	#about {height: auto;}
+	.topbg4 {height: auto;}
+	.portfolio-flex1 {flex-direction: column;
+	align-items: center;
+		margin-top: 10px;}
+	.portfolio-flex2 {flex-direction: column;
+	align-items: center;
+		margin-top: 10px;}	
+	#works {height: auto;}
+	.bg5 {height: auto;}
+	.works-item {margin-top: 10px;}	
+	.flex-cont-items {flex-direction: column;
+	align-items: center;
+		margin-top: 10px;}
+	#contacts {height: auto;}
+	.bg6 {height: auto;}
+	.form {margin-top: 15px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

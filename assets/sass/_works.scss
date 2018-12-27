@@ -1,0 +1,133 @@
+#works {height: 1149px;
+background-color: #81a256;}
+
+.bg5 {
+	height: 1149px;
+	background: url(../img/bg5.png) no-repeat center/cover;
+}
+
+#text-work {
+	color: #ffffff;
+	margin-top: 34px;
+}
+
+#site-nav4 a:hover {
+	background-color: #a1ca6c;
+	transition: 2s;
+}
+
+.line {
+	width: 80%;
+	margin-top: 58px;
+	height: 1px;
+	background-color: #94b963;
+	border: none;
+}
+
+.nav-port-flex {
+	display: flex;
+	justify-content: space-between;
+	width: 78%;
+	margin: 0 auto;
+	margin-top: 40px; 
+	& h5 {
+		color: #ffffff;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;}
+	& input {display: none;}
+}
+
+.port-nav {
+	list-style: none;
+	& li {
+		display: inline-block;
+	}
+	& label {display: block;
+		width: 110px;
+		height: 35px;
+		border-radius: 5px;
+		line-height: 35px;
+		color: #ffffff;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;}
+}
+
+#rad1:checked~.nav-port label[for="rad1"] {
+	background-color: #f5c149;
+}
+
+#rad2:checked~.nav-port label[for="rad2"] {
+	background-color: #f5c149;
+}
+
+#rad3:checked~.nav-port label[for="rad3"] {
+	background-color: #f5c149;
+}
+
+#rad4:checked~.nav-port label[for="rad4"] {
+	background-color: #f5c149;
+}
+
+#line2 {
+	margin-top: 35px;
+}
+
+.portfolio-flex1 {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+
+.portfolio-flex2 {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.works-item {
+	width: 260px;
+	height: 250px;
+	display: block;
+	position: relative;
+	& a:hover {
+		background-color: #3d4d29;
+		opacity: 0.7;
+		transition: 1s;
+		}
+	& a:after {content: url(../img/treyg.png);
+		position: absolute;
+		top: 181px;
+		right: 110px;
+		}
+	& a:before {content: url(../img/plus.png);
+		position: absolute;
+		top: 80px;
+		right: 104px;
+		opacity: 0;
+		transition: 1s;}
+	& a:hover:before {
+		opacity: 1;
+	}			
+}
+
+.work-disc {
+	width: 260px;
+	height: 50px;
+	background-color: #eeeeee;
+	margin-top: -4px;
+	color: #727272;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 50px;
+text-transform: uppercase;
+}
+
